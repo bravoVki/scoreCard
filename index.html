@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scoreCard</title>
+</head>
+<body>
+    <!-- <p id="test">hey man just relax</p> -->
+    <div class="container">
+    <div class="main">
+        <div class="cont1">
+            <h3 id="title">HOME</h3>
+            <div class="displayBox" id="disp1">
+                <div class="scoreBox">
+                    <h1 id="score-home">00</h1>
+                </div>
+            </div>
+            <div class="btnCont">
+                <button class="btn" id="b1h" onclick="add1h()"><span id="addscore">+1</span></button>
+                <button class="btn"id="b2h" onclick="add2h()"><span id="addscore">+2</span></button>
+                <button class="btn" id="b3h" onclick="add3h()"><span id="addscore">+3</span></button>
+            </div>
+        </div>
+        <div class="cont2">
+            <h3>GUEST</h3>
+            <div class="displayBox" id="disp2">
+                <div class="scoreBox">
+                    <h1 id="score-guest">00</h1>
+                </div>
+            </div>
+            <div class="btnCont">
+                <button class="btn" id="b1g" onclick="add1g()"><span id="addscore">+1</span></button>
+                <button class="btn"  id="b2g" onclick="add2g()"><span id="addscore">+2</span></button>
+                <button class="btn" id="b3g" onclick="add3g()"><span id="addscore">+3</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>  
+</body>
+</html>
